@@ -4,12 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "node server.js"
+    "test": "jest",
+    "start": "node server.js"
     },
   "repository": {
     "type": "git",
@@ -31,7 +27,6 @@
     "express-handlebars": "^5.2.1",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.6.1",
-    "serve": "^11.3.2"
+    "sequelize": "^6.6.1"
   }
 }
