@@ -1,7 +1,7 @@
 
 <h1 align="center">Tech Blog</h1>
 
-![Screenshot](./screenshot/screenshot.png)
+![Screenshot](./ScreenShot/screenshot.png)
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
