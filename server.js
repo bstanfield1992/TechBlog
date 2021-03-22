@@ -12,7 +12,7 @@ const cool = require('cool-ascii-faces');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-   secret: 'AlphaPup',
+   secret: 'A Secret',
    cookie: {},
    resave: false,
    saveUninitialized: true,
