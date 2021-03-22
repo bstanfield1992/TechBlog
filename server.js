@@ -23,7 +23,7 @@ const sess = {
 
 const app = express()
 .get('/cool', (req, res) => res.send(cool()));
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3006;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
