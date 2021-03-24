@@ -19,7 +19,7 @@ async function deleteFormHandler(event) {
        console.log(resComment[i].id);
        await fetch(`/api/comments/${resComment[i].id}`, {
           method: 'DELETE'
-       }).catch(e => { console.log(e) });
+       });
   
           console.log(`Deleted Comment ${resComment[i].id}`);
     }
@@ -27,7 +27,7 @@ async function deleteFormHandler(event) {
   
     const response = await fetch(`/api/posts/${id}`, {
        method: 'DELETE'
-    }).catch(e => { console.log(e) });
+    });
   
     if (response.ok) {
        document.location.replace('/dashboard/');

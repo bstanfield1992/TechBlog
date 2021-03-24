@@ -12,7 +12,7 @@ async function loginFormHandler(event) {
         password
       }),
       headers: { 'Content-Type': 'application/json' }
-    }).catch(e => { console.log(e) });
+    });
 
     if (response.ok) {
       document.location.replace('/dashboard');
@@ -38,7 +38,7 @@ async function signupFormHandler(event) {
         password
       }),
       headers: { 'Content-Type': 'application/json' }
-    }).catch(e => { console.log(e) });
+    });
 
     // check the response status
     if (response.ok) {

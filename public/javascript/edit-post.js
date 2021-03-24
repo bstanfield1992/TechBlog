@@ -14,7 +14,7 @@ async function editFormHandler(event) {
      headers: {
         'Content-Type': 'application/json'
      }
-  }).catch(e => { console.log(e) });
+  });
 
   if (response.ok) {
      document.location.replace('/dashboard/');

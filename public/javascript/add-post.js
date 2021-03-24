@@ -9,7 +9,7 @@ async function newFormHandler(event) {
        body: JSON.stringify({
           title,
           post_url
-       }).catch(e => { console.log(e) }),
+       }),
        headers: {
           'Content-Type': 'application/json'
        }
